@@ -1,0 +1,35 @@
+/* CSS Document */
+
+div.formBase
+{
+	height: 400pt;
+	width: 300pt;
+	background-color: peachpuff;
+	margin: auto;
+}
+
+input
+{
+	border: none;
+	border-radius: 12px;
+	height: 30pt;
+	width: 95%;
+}
+
+button
+{
+	border: none;
+	border-radius: 12px;
+	color: white;
+	background-color: blue;
+	font-weight: bold;
+	text-align: center;
+	height: 35pt;
+	width: 80pt;
+}
+
+button:hover
+{
+	cursor: pointer;
+	transform: scale(1.1);
+}

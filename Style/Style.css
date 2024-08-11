@@ -1,0 +1,140 @@
+/* CSS Document */
+
+img.titleLogo
+{
+	align-items: center;
+	align-self: center;
+	width: 100%;
+	text-align: center;
+}
+
+h1.title
+{
+	color: purple;
+}
+
+div.Navigation
+{
+	height: 65pt;
+	width: 100%;
+	text-align: center;
+	align-items: center;
+	align-self: center;
+	background-color:  rgb(231, 182, 59);
+}
+
+button.NavBtn
+{
+	background-color: rgb(231, 182, 59);
+	color: blue;
+	border: none;
+	height: 20pt;
+	width: 115pt;
+	font-size: 15pt;
+	font-weight: bold;
+	text-align: center;
+	align-items: center;
+	align-self: center;
+	align-content: center;
+	margin-top: 21pt;
+}
+
+button.NavBtn:hover
+{
+	cursor: pointer;
+	transform: scale(1.1);
+}
+
+div.DisplayBox
+{
+	align-items: center;
+	align-self: center;
+	align-content: center;
+	text-align: center;
+	height: 200pt;
+	width: 700pt;
+	border: blue;
+	background-color: 	 rgb(231, 182, 59);
+	color: blue;
+	border-color: blue;
+	border-width: 1;
+	border-style: solid;
+	display: block;
+	margin: auto;
+	margin-top: 55px;
+	box-shadow: 5px 10px lightgray;
+}
+
+div.container
+{
+	display: flex;
+	justify-content: space-around;
+	font-size: 14pt;
+	color: black;
+}
+
+div.flexBox
+{
+	color: black;
+	text-align: center;
+	font-size: 18pt;
+	border-color: black;
+	border-radius: 15pt;
+	border-style: solid;
+	height: 120pt;
+	width: 220pt;
+	margin-top: 35pt;
+}
+
+div.flexBox:hover
+{
+	transform: scale(1.1);
+	cursor: pointer;
+}
+
+div.BaseContainer
+{
+	background-color: rgb(231, 182, 59);
+	height: 120pt;
+	width: 100%;
+	bottom: 0pt;
+	margin-top: 15pt;
+}
+
+img.eduLogo
+{
+	height: 250px;
+	width: 250px;;
+}
+
+div.flexBoxEdu
+{
+	color: black;
+	text-align: center;
+	border-color: black;
+	border-radius: 15pt;
+}
+
+div.infoCollect
+{
+	background-color: blue;
+	height: 300pt;
+	width: 100%;
+	color: yellow;
+	font-size: 13pt;;
+}
+
+input.inputFormBox
+{
+	border-radius: 10px;
+	height: 25pt;
+	width: 350pt;
+}
+
+button.DemoSub
+{
+	border: none;
+	height: 30pt;
+	width: 60pt;
+	background-color: orange;
+}
